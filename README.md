@@ -57,3 +57,20 @@ Angular CLI does not come with an end-to-end testing framework by default. You c
 ## Additional Resources
 
 For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+
+## Portfolio app
+
+This workspace was updated to include a small portfolio site. Key routes:
+
+- /  — Home (hero with quick links)
+- /about — About me
+- /projects — Projects list (sample data in `src/app/projects.data.ts`)
+- /contact — Contact information
+
+The app uses Angular 20 standalone components and the router. To run locally:
+
+```bash
+ng serve
+```
+
+Open http://localhost:4200/ in your browser.
